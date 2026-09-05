@@ -122,6 +122,7 @@
   function setupMessengerLinks() {
     const telegram = String(config.telegram || "").trim();
     const whatsapp = String(config.whatsapp || "").trim();
+    const max = String(config.max || "").trim();
 
     document.querySelectorAll("[data-telegram-link]").forEach((link) => {
       if (telegram) link.href = telegram;
@@ -130,6 +131,11 @@
 
     document.querySelectorAll("[data-whatsapp-link]").forEach((link) => {
       if (whatsapp) link.href = whatsapp;
+      else link.hidden = true;
+    });
+
+    document.querySelectorAll("[data-max-link]").forEach((link) => {
+      if (max) link.href = max;
       else link.hidden = true;
     });
   }
@@ -549,7 +555,7 @@
       "сороконожка": ["тонар", "самосвал"],
       "тонар": ["тонары", "самосвалы"],
       "бара": ["траншеекопатели", "грунторезы"],
-      // Модели и бренды подтвержденного парка Гостехнадзор
+      // Модели и бренды подтвержденного автопарка в наличии
       "tzco": ["гусеничные экскаваторы", "экскаватор", "tz260"],
       "tz260": ["гусеничные экскаваторы", "экскаватор"],
       "tz260c3": ["гусеничные экскаваторы", "экскаватор"],
@@ -584,10 +590,7 @@
       "dieci": ["телескопические погрузчики", "apollo"],
       "apollo": ["телескопические погрузчики"],
       "мтз": ["планировочная", "трактор", "беларус", "коммунальная"],
-      "беларус": ["планировочная", "трактор", "мтз", "коммунальная"],
-      "псм": ["подтвержденный парк", "в наличии", "гостехнадзор"],
-      "гостехнадзор": ["подтвержденный парк", "в наличии"],
-      "стс": ["подтвержденный парк", "в наличии"]
+      "беларус": ["планировочная", "трактор", "мтз", "коммунальная"]
     };
 
     const cardData = [];

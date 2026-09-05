@@ -4936,6 +4936,10 @@ a {
   background: #0088cc;
 }
 
+.msg-btn--max {
+  background: #2563eb;
+}
+
 .requisites-box p {
   margin: 0 0 6px;
   font-size: 13px;
