@@ -190,7 +190,7 @@
       _subject: `Заявка с сайта ЗемТрак (zemtrak.ru): ${service} — ${phone}`,
       _template: "table",
       _captcha: "false",
-      target_email: "roman.k@mail.ru",
+      target_email: "rent@zemtrak.ru",
       page_url: window.location.href,
       page_title: document.title,
       ...attribution,

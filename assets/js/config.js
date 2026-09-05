@@ -1,6 +1,6 @@
 const SITE_CONFIG = {
-  leadEndpoint: "https://formsubmit.co/ajax/roman.k@mail.ru",
-  email: "roman.k@mail.ru",
+  leadEndpoint: "https://formsubmit.co/ajax/rent@zemtrak.ru",
+  email: "rent@zemtrak.ru",
   phone: "+7 (925) 757-78-88",
   telegram: "https://t.me/romanspes",
   whatsapp: "https://wa.me/79257577888",
@@ -50,9 +50,9 @@ const SITE_CONFIG = {
   function applyHomePositioning() {
     if (path !== "/") return;
 
-    document.title = "Аренда спецтехники в Москве и МО — ZEMTRAK";
+    document.title = "Аренда спецтехники в Москве, МО и по всей России — ZEMTRAK";
     setMetaDescription(
-      "Аренда строительной, дорожной, землеройной и другой спецтехники в Москве и Московской области. Подберём технику под задачу и организуем подачу на объект."
+      "Аренда строительной, дорожной, землеройной и другой спецтехники в Москве, Московской области и по всей России. Подберём технику под задачу и организуем подачу с аттестованными машинистами и топливом."
     );
 
     const hero = document.querySelector(".hero");
@@ -64,7 +64,7 @@ const SITE_CONFIG = {
     setText("h1", "Аренда спецтехники", hero);
     setText(
       ".hero__lead",
-      "Подберём технику под вашу задачу. Экскаваторы, погрузчики, самосвалы, краны, дорожная и другая спецтехника в аренду.",
+      "Подберём технику под вашу задачу. Экскаваторы, погрузчики, самосвалы, краны, дорожная и другая спецтехника в аренду в Москве, Московской области и по всей России с аттестованными машинистами и топливом.",
       hero
     );
 

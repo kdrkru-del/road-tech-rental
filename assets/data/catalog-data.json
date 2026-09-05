@@ -199,7 +199,7 @@
       "title": "Погрузочная техника",
       "slug": "pogruzochnaya-tehnika",
       "icon": "🚜",
-      "description": "Фронтальные, телескопические, вилочные и компактные мини-погрузчики для перемещения сыпучих и штучных грузов.",
+      "description": "Фронтальные и компактные мини-погрузчики (Bobcat) для погрузки сыпучих материалов, планировки площадок и уборки снега.",
       "categories": [
         {
           "id": "wheel-loaders",
@@ -260,64 +260,6 @@
             "moyka-podmetanie",
             "obratnaya-zasypka",
             "vyvoz-snega"
-          ]
-        },
-        {
-          "id": "telescopic-handlers",
-          "title": "Телескопические погрузчики",
-          "slug": "teleskopicheskie-pogruzchiki",
-          "image": "/assets/images/excavators/hitachi-zx200.jpg",
-          "verified": false,
-          "priceFrom": "от 3 400 ₽/час",
-          "priceShift": "от 27 200 ₽/смена",
-          "specs": [
-            {
-              "label": "Высота подъема",
-              "value": "от 7 до 18 м"
-            },
-            {
-              "label": "Грузоподъемность",
-              "value": "3.5 – 5.0 тонн"
-            },
-            {
-              "label": "Навески",
-              "value": "Вилы, ковш, люлька, крюк"
-            }
-          ],
-          "shortDesc": "Маневренная техника Manitou/JCB для подачи стройматериалов на этажи и монтажных высотных задач.",
-          "relatedServices": [
-            "podem-montazh-konstruktsiy",
-            "razgruzka-negabarita",
-            "fasadnye-raboty"
-          ]
-        },
-        {
-          "id": "forklifts",
-          "title": "Вилочные погрузчики",
-          "slug": "vilochnye-pogruzchiki",
-          "image": "/assets/images/excavators/hitachi-zx200.jpg",
-          "verified": false,
-          "priceFrom": "от 1 800 ₽/час",
-          "priceShift": "от 14 400 ₽/смена",
-          "specs": [
-            {
-              "label": "Грузоподъемность",
-              "value": "1.5 – 10 тонн"
-            },
-            {
-              "label": "Высота подъема",
-              "value": "до 6.0 м"
-            },
-            {
-              "label": "Привод",
-              "value": "Дизель / газ / электро"
-            }
-          ],
-          "shortDesc": "Складские и внедорожные кары для разгрузки фур, поддонов с кирпичом, плиткой и оборудованием.",
-          "relatedServices": [
-            "razgruzka-negabarita",
-            "peregruzka-materialov",
-            "takelazh-oborudovaniya"
           ]
         }
       ]
@@ -2502,10 +2444,7 @@
           ],
           "relatedEquipment": [
             "avtokrany",
-            "kmu-manipulyatory",
-            "teleskopicheskie-pogruzchiki",
-            "telescopic-handlers",
-            "forklifts"
+            "kmu-manipulyatory"
           ]
         },
         {
@@ -2534,8 +2473,6 @@
           "relatedEquipment": [
             "avtokrany",
             "kmu-manipulyatory",
-            "vilochnye-pogruzchiki",
-            "forklifts",
             "truck-cranes",
             "crane-manipulators"
           ]
@@ -2968,9 +2905,7 @@
           "relatedEquipment": [
             "avtokrany",
             "kmu-manipulyatory",
-            "teleskopicheskie-pogruzchiki",
             "avtovyshki",
-            "telescopic-handlers",
             "truck-cranes",
             "aerial-platforms",
             "concrete-pumps",
@@ -3031,9 +2966,7 @@
           ],
           "relatedEquipment": [
             "avtovyshki",
-            "teleskopicheskie-pogruzchiki",
             "kmu-manipulyatory",
-            "telescopic-handlers",
             "aerial-platforms"
           ]
         }
@@ -3481,11 +3414,11 @@
     "ogrn": "1242500018859",
     "phone": "+7 (925) 757-78-88",
     "phoneRaw": "+79257577888",
-    "email": "roman.k@mail.ru",
+    "email": "rent@zemtrak.ru",
     "baseAddress": "г. Москва, ул. Рябиновая, д. 43, корп. 2",
     "telegram": "https://t.me/romanspes",
     "whatsapp": "https://wa.me/79257577888",
     "schedule": "Круглосуточно 24/7",
-    "coverage": "Москва, Новая Москва и Московская область (до 150 км от МКАД)"
+    "coverage": "Москва, Московская область, вся Россия"
   }
 }
