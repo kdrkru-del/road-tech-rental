@@ -410,4 +410,5 @@
   setupYear();
   setupCatalogFilters();
   setupEquipmentModal();
+    setupCraneCalculator();
 })();
