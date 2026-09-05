@@ -5,7 +5,7 @@ const SITE_CONFIG = {
   telegram: "https://t.me/romanspes",
   whatsapp: "https://wa.me/79257577888",
   max: "https://max.ru/u/f9LHodD0cOIyRnk4XSMp9LQv3nUe6pWwsL4DqMp_p80p0ISba6wNwFpIQy4",
-  metrikaId: ""
+  metrikaId: "112314091"
 };
 
 (() => {
