@@ -4,6 +4,7 @@ const SITE_CONFIG = {
   phone: "+7 (925) 757-78-88",
   telegram: "https://t.me/romanspes",
   whatsapp: "https://wa.me/79257577888",
+  max: "https://max.ru/",
   metrikaId: ""
 };
 

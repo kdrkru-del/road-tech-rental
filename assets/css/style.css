@@ -299,11 +299,13 @@ a {
   transition: transform 180ms ease;
 }
 
-.main-nav a:hover {
+.main-nav a:hover,
+.main-nav a.is-active {
   color: var(--white);
 }
 
-.main-nav a:hover::after {
+.main-nav a:hover::after,
+.main-nav a.is-active::after {
   transform: scaleX(1);
   transform-origin: left;
 }
@@ -5453,4 +5455,405 @@ body .section--callback .form-privacy {
 
 .section--home-contacts .section-heading {
   margin-bottom: 40px;
+}
+
+
+/* ==========================================================================
+   CATALOG LIVE SEARCH & FILTER
+   ========================================================================== */
+.catalog-search-wrapper {
+  margin: 32px 0 40px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 24px;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.04);
+}
+
+.catalog-search-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.catalog-search-icon {
+  position: absolute;
+  left: 18px;
+  font-size: 20px;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.catalog-search-input {
+  width: 100%;
+  padding: 16px 48px 16px 52px;
+  font-size: 16px;
+  font-family: inherit;
+  color: var(--ink);
+  background: var(--paper);
+  border: 2px solid transparent;
+  border-radius: var(--radius-sm);
+  transition: all 0.2s ease;
+  outline: none;
+}
+
+.catalog-search-input:focus {
+  background: #ffffff;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 4px rgba(255, 90, 31, 0.12);
+}
+
+.catalog-search-clear {
+  position: absolute;
+  right: 14px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(0, 0, 0, 0.08);
+  color: var(--ink);
+  font-size: 14px;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.catalog-search-clear:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+.catalog-filter-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.catalog-filter-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.cat-filter-btn {
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  background: var(--paper);
+  color: var(--ink-soft);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.cat-filter-btn:hover {
+  background: var(--sand);
+  color: var(--ink);
+}
+
+.cat-filter-btn.is-active {
+  background: var(--ink);
+  color: #ffffff;
+  border-color: var(--ink);
+}
+
+.catalog-search-status {
+  font-size: 14px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.catalog-search-status strong {
+  color: var(--accent);
+  font-size: 16px;
+}
+
+.catalog-no-results {
+  text-align: center;
+  padding: 60px 24px;
+  background: var(--white);
+  border-radius: var(--radius);
+  border: 2px dashed var(--line);
+  margin: 32px 0;
+}
+
+.catalog-no-results__icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+  opacity: 0.5;
+}
+
+.catalog-no-results h3 {
+  font-size: 22px;
+  margin: 0 0 10px;
+  color: var(--ink);
+}
+
+.catalog-no-results p {
+  color: var(--muted);
+  max-width: 520px;
+  margin: 0 auto 24px;
+}
+
+.catalog-no-results__actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ==========================================================================
+   B2B TERMS & GUARANTEES
+   ========================================================================== */
+.section--b2b-terms {
+  padding: 72px 0;
+  background: #ffffff;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.b2b-terms-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-top: 36px;
+}
+
+.b2b-term-card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.b2b-term-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.06);
+}
+
+.b2b-term-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+.b2b-term-card h3,
+.b2b-term-card h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 12px;
+  color: var(--ink);
+  line-height: 1.35;
+}
+
+.b2b-term-card p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--muted);
+  margin: 0 0 14px;
+}
+
+.b2b-term-tags {
+  margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.b2b-tag {
+  font-size: 12px;
+  font-weight: 600;
+  background: var(--white);
+  color: var(--ink-soft);
+  padding: 4px 10px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+@media (max-width: 1024px) {
+  .b2b-terms-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .b2b-terms-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .catalog-search-wrapper {
+    padding: 18px;
+  }
+  .catalog-filter-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* ==========================================================================
+   QUICK CONTACT FLOATING WIDGET (WhatsApp, Telegram, MAX)
+   ========================================================================== */
+.quick-contact-fab {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 10000;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  gap: 12px;
+  pointer-events: none;
+}
+
+.quick-contact-fab * {
+  pointer-events: auto;
+}
+
+.fab-toggle-btn {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(255, 90, 31, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), background-color 0.2s;
+}
+
+.fab-toggle-btn:hover {
+  background: var(--accent-dark);
+  transform: scale(1.08);
+}
+
+.fab-toggle-btn.is-active {
+  background: var(--ink);
+  transform: rotate(45deg);
+}
+
+.fab-pulse {
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  border: 2px solid var(--accent);
+  animation: fabPulse 2s infinite cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  pointer-events: none;
+}
+
+@keyframes fabPulse {
+  0% { transform: scale(1); opacity: 0.8; }
+  100% { transform: scale(1.4); opacity: 0; }
+}
+
+.fab-toggle-btn.is-active .fab-pulse {
+  display: none;
+}
+
+.fab-toggle-icon {
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+
+.fab-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(16px) scale(0.95);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  transform-origin: bottom right;
+}
+
+.quick-contact-fab.is-open .fab-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0) scale(1);
+}
+
+.fab-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px 10px 12px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s, box-shadow 0.2s;
+  white-space: nowrap;
+}
+
+.fab-item:hover {
+  transform: translateX(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.22);
+}
+
+.fab-item__icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.fab-item__icon svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.fab-item--wa {
+  background: #25D366;
+}
+
+.fab-item--tg {
+  background: #229ED9;
+}
+
+.fab-item--max {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+}
+
+.fab-item--phone {
+  background: #0f172a;
+}
+
+@media (max-width: 640px) {
+  .quick-contact-fab {
+    bottom: 84px;
+    right: 18px;
+  }
 }

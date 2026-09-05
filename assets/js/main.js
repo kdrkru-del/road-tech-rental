@@ -401,6 +401,284 @@
     });
   }
 
+
+  function setupQuickContactWidget() {
+    if (document.getElementById("quickContactWidget")) return;
+
+    const tg = config.telegram || "https://t.me/romanspes";
+    const wa = config.whatsapp || "https://wa.me/79257577888";
+    const max = config.max || "https://max.ru/";
+    const phone = config.phone || "+7 (925) 757-78-88";
+    const telHref = "tel:" + normalizedPhone(phone);
+
+    const widget = document.createElement("div");
+    widget.id = "quickContactWidget";
+    widget.className = "quick-contact-fab";
+    widget.setAttribute("role", "region");
+    widget.setAttribute("aria-label", "Быстрая связь");
+
+    widget.innerHTML = `
+      <button type="button" class="fab-toggle-btn" id="fabToggleBtn" aria-label="Открыть контакты" aria-expanded="false">
+        <span class="fab-pulse"></span>
+        <span class="fab-toggle-icon">💬</span>
+      </button>
+      <div class="fab-menu" id="fabMenu" aria-hidden="true">
+        <a href="${wa}" target="_blank" rel="noopener" class="fab-item fab-item--wa" data-messenger="whatsapp" aria-label="Написать в WhatsApp">
+          <span class="fab-item__icon">
+            <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm5.79 14.07c-.24.67-1.4 1.24-1.92 1.29-.51.05-1.18.08-3.41-.85-2.85-1.18-4.68-4.08-4.82-4.27-.14-.19-1.15-1.53-1.15-2.92 0-1.39.73-2.07.99-2.35.26-.28.57-.35.77-.35.19 0 .39 0 .56.01.18.01.42-.07.66.5.24.58.82 2 .89 2.15.07.15.12.33.02.53-.1.19-.15.31-.3.49-.15.17-.31.39-.45.52-.15.15-.3.31-.13.61.17.3 1.15 1.89 2.47 3.07 1.32 1.18 2.43 1.55 2.73 1.72.3.17.48.15.66-.06.18-.21.78-.91.99-1.22.21-.31.42-.26.71-.15.29.11 1.83.86 2.14 1.02.31.15.52.23.59.36.08.13.08.76-.16 1.43z"/></svg>
+          </span>
+          <span>WhatsApp</span>
+        </a>
+        <a href="${tg}" target="_blank" rel="noopener" class="fab-item fab-item--tg" data-messenger="telegram" aria-label="Написать в Telegram">
+          <span class="fab-item__icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 0 0-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.75-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z"/></svg>
+          </span>
+          <span>Telegram</span>
+        </a>
+        <a href="${max}" target="_blank" rel="noopener" class="fab-item fab-item--max" data-messenger="max" aria-label="Связаться через MAX">
+          <span class="fab-item__icon">
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.477 2 12c0 1.93.548 3.73 1.496 5.257l-1.012 3.78 3.86-1.012A9.956 9.956 0 0 0 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm-3.5 6.5h2l2 4 2-4h2v7h-1.8v-4.3l-1.6 3.3h-1.2l-1.6-3.3V15.5H8.5v-7z"/></svg>
+          </span>
+          <span>MAX</span>
+        </a>
+        <a href="${telHref}" class="fab-item fab-item--phone" data-phone-link aria-label="Позвонить">
+          <span class="fab-item__icon">
+            <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+          </span>
+          <span>${phone}</span>
+        </a>
+      </div>
+    `;
+
+    document.body.appendChild(widget);
+
+    const toggleBtn = widget.querySelector("#fabToggleBtn");
+    const menu = widget.querySelector("#fabMenu");
+
+    function toggleFab(open) {
+      const shouldOpen = typeof open === "boolean" ? open : !widget.classList.contains("is-open");
+      widget.classList.toggle("is-open", shouldOpen);
+      toggleBtn.classList.toggle("is-active", shouldOpen);
+      toggleBtn.setAttribute("aria-expanded", String(shouldOpen));
+      menu.setAttribute("aria-hidden", String(!shouldOpen));
+    }
+
+    toggleBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      toggleFab();
+    });
+
+    document.addEventListener("click", (e) => {
+      if (!widget.contains(e.target) && widget.classList.contains("is-open")) {
+        toggleFab(false);
+      }
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && widget.classList.contains("is-open")) {
+        toggleFab(false);
+      }
+    });
+  }
+
+  function setupCatalogLiveSearch() {
+    const searchInput = document.getElementById("catalogSearchInput");
+    if (!searchInput) return;
+
+    const clearBtn = document.getElementById("catalogSearchClear");
+    const filterBtns = document.querySelectorAll(".cat-filter-btn");
+    const countBadge = document.getElementById("catalogResultCount");
+    const emptyState = document.getElementById("catalogNoResults");
+    const resetBtn = document.getElementById("catalogResetBtn");
+    const groupSections = document.querySelectorAll(".eq-group-section");
+    const allCards = document.querySelectorAll(".cat-full-card");
+
+    if (!allCards.length) return;
+
+    let currentGroup = "all";
+
+    const SYNONYMS = {
+      "бобкэт": ["мини-погрузчик", "минипогрузчик", "bobcat", "мини-погрузчики"],
+      "бобкат": ["мини-погрузчик", "минипогрузчик", "bobcat"],
+      "bobcat": ["мини-погрузчик", "минипогрузчик"],
+      "воровайка": ["кран-манипулятор", "манипулятор", "кму", "бортовой"],
+      "кму": ["кран-манипулятор", "манипулятор", "кму", "бортовой"],
+      "манипулятор": ["кран-манипулятор", "кму", "бортовой"],
+      "ямобур": ["буровая", "буроям", "бурение", "буровые"],
+      "буроям": ["буровая", "ямобур", "бурение", "буровые"],
+      "бурилка": ["буровая", "ямобур", "бурение"],
+      "длинномер": ["шаланда", "бортовой", "полуприцеп", "длинномер"],
+      "шаланда": ["длинномер", "бортовой", "шаланды"],
+      "фура": ["бортовой", "шаланда", "полуприцеп"],
+      "миксер": ["автобетоносмеситель", "бетоносмеситель", "бетон"],
+      "вертушка": ["автобетоносмеситель", "бетоносмеситель"],
+      "груша": ["автобетоносмеситель", "бетоносмеситель"],
+      "пушка": ["генератор", "компрессор"],
+      "теплопушка": ["генератор", "компрессор"],
+      "шпунт": ["вибропогружатель", "шпунт", "ларсен", "шпунта"],
+      "шпунтоукладчик": ["вибропогружатель", "шпунт"],
+      "трал": ["трал", "тяжеловоз", "низкорамный", "перевозка"],
+      "корыто": ["трал", "низкорамный"],
+      "петушок": ["экскаватор-погрузчик", "погрузчик"],
+      "кдм": ["комбинированная дорожная машина", "кдм"],
+      "пылесос": ["коммунальная", "вакуумная", "подметально-уборочная"],
+      "подметалка": ["коммунальная", "вакуумная", "кдм"],
+      "поливалка": ["коммунальная", "кдм", "автогудронатор"],
+      "бочка": ["автогудронатор", "илосос", "каналопромывочная"],
+      "гудронатор": ["автогудронатор", "битум"],
+      "илосос": ["илосос", "ассенизатор", "каналопромывочная"],
+      "каналопромывка": ["каналопромывочные", "илососные"],
+      "ассенизатор": ["илосос", "вакуумная"],
+      "баба": ["сваебойная", "копер"],
+      "сваебой": ["сваебойные", "сваи"],
+      "копер": ["сваебойные"],
+      "крот": ["гнб", "бестраншейная"],
+      "прокол": ["гнб", "бестраншейная"],
+      "дробилка": ["дробильные", "грохот"],
+      "грохот": ["мобильные грохоты", "сортировка"],
+      "ножницы": ["гидроножницы", "демонтаж"],
+      "крашер": ["гидроножницы", "демонтаж"],
+      "молот": ["гидромолот"],
+      "отбойник": ["гидромолот"],
+      "фреза": ["дорожно-строительная", "фрезерование"],
+      "каток": ["дорожные катки", "грунтовые катки", "каток"],
+      "вышка": ["автовышка", "подъемник", "агп"],
+      "люлька": ["автовышка", "кму"],
+      "агп": ["автовышка", "вышка"],
+      "кран": ["кран", "автокран", "манипулятор"],
+      "сороконожка": ["тонар", "самосвал"],
+      "тонар": ["тонары", "самосвалы"],
+      "бара": ["траншеекопатели", "грунторезы"]
+    };
+
+    const cardData = [];
+    allCards.forEach((card) => {
+      const parentSection = card.closest(".eq-group-section");
+      const groupId = parentSection ? parentSection.id : "";
+      const titleEl = card.querySelector(".cat-full-card__title");
+      const descEl = card.querySelector(".cat-full-card__desc");
+      const specsEl = card.querySelector(".cat-full-card__specs");
+      const badgeEl = card.querySelector(".grp-badge");
+
+      const title = titleEl ? titleEl.textContent.toLowerCase() : "";
+      const desc = descEl ? descEl.textContent.toLowerCase() : "";
+      const specs = specsEl ? specsEl.textContent.toLowerCase() : "";
+      const badge = badgeEl ? badgeEl.textContent.toLowerCase() : "";
+
+      const raw = `${title} ${desc} ${specs} ${badge}`.toLowerCase();
+      cardData.push({ card, groupId, raw });
+    });
+
+    function filterCards() {
+      const query = searchInput.value.trim().toLowerCase();
+      if (clearBtn) {
+        clearBtn.style.display = query.length > 0 ? "flex" : "none";
+      }
+
+      const tokens = query ? query.split(/\s+/).filter(Boolean) : [];
+      let visibleCount = 0;
+      const groupVisibleMap = {};
+
+      groupSections.forEach((sec) => {
+        groupVisibleMap[sec.id] = 0;
+      });
+
+      cardData.forEach((item) => {
+        const matchesGroup = (currentGroup === "all" || item.groupId === currentGroup);
+        let matchesSearch = true;
+
+        if (tokens.length > 0) {
+          matchesSearch = tokens.every((token) => {
+            if (item.raw.includes(token)) return true;
+            const syns = SYNONYMS[token] || [];
+            return syns.some((syn) => item.raw.includes(syn));
+          });
+        }
+
+        const isVisible = matchesGroup && matchesSearch;
+        if (isVisible) {
+          item.card.style.display = "";
+          visibleCount++;
+          if (item.groupId) {
+            groupVisibleMap[item.groupId] = (groupVisibleMap[item.groupId] || 0) + 1;
+          }
+        } else {
+          item.card.style.display = "none";
+        }
+      });
+
+      groupSections.forEach((sec) => {
+        const hasVisible = (groupVisibleMap[sec.id] || 0) > 0;
+        sec.style.display = hasVisible ? "" : "none";
+      });
+
+      if (countBadge) {
+        countBadge.textContent = String(visibleCount);
+      }
+
+      if (emptyState) {
+        emptyState.style.display = visibleCount === 0 ? "block" : "none";
+      }
+    }
+
+    searchInput.addEventListener("input", filterCards);
+
+    if (clearBtn) {
+      clearBtn.addEventListener("click", () => {
+        searchInput.value = "";
+        searchInput.focus();
+        filterCards();
+      });
+    }
+
+    if (resetBtn) {
+      resetBtn.addEventListener("click", () => {
+        searchInput.value = "";
+        currentGroup = "all";
+        filterBtns.forEach((btn) => {
+          btn.classList.toggle("is-active", btn.dataset.group === "all");
+        });
+        filterCards();
+      });
+    }
+
+    filterBtns.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        currentGroup = btn.dataset.group || "all";
+        filterBtns.forEach((b) => b.classList.remove("is-active"));
+        btn.classList.add("is-active");
+        filterCards();
+      });
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && document.activeElement === searchInput) {
+        searchInput.value = "";
+        filterCards();
+      }
+    });
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const initialQuery = urlParams.get("q");
+    const initialGroup = urlParams.get("group");
+
+    if (initialQuery) {
+      searchInput.value = initialQuery;
+    }
+    if (initialGroup) {
+      const matchBtn = Array.from(filterBtns).find((b) => b.dataset.group === initialGroup);
+      if (matchBtn) {
+        currentGroup = initialGroup;
+        filterBtns.forEach((b) => b.classList.remove("is-active"));
+        matchBtn.classList.add("is-active");
+      }
+    }
+
+    if (initialQuery || initialGroup) {
+      filterCards();
+    }
+  }
+
   setupPhoneLinks();
   setupMessengerLinks();
   setupMetrika();
@@ -409,6 +687,8 @@
   setupGoals();
   setupYear();
   setupCatalogFilters();
+  setupCatalogLiveSearch();
   setupEquipmentModal();
-    setupCraneCalculator();
+  setupCraneCalculator();
+  setupQuickContactWidget();
 })();
