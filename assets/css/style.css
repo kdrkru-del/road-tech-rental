@@ -240,28 +240,28 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 44px;
-  height: 44px;
-  border: 1.5px solid rgba(245, 158, 11, 0.45);
-  border-radius: 10px;
-  background: #0f1218;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  width: auto;
+  height: 40px;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  overflow: visible;
   flex-shrink: 0;
-  transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
+  transition: transform 0.25s ease, filter 0.25s ease;
 }
 
 .brand:hover .brand__mark {
-  border-color: var(--accent);
-  box-shadow: 0 0 14px rgba(245, 158, 11, 0.35);
-  transform: translateY(-1px);
+  transform: translateY(-1px) scale(1.05);
+  filter: drop-shadow(0 0 10px rgba(245, 158, 11, 0.45));
 }
 
 .brand__mark img {
   display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  width: auto;
+  height: 38px;
+  max-width: 68px;
+  object-fit: contain;
 }
 
 .brand__text {
@@ -1384,8 +1384,13 @@ a {
 }
 
 .brand--footer .brand__mark {
-  width: 38px;
-  height: 38px;
+  width: auto;
+  height: 34px;
+}
+
+.brand--footer .brand__mark img {
+  height: 34px;
+  max-width: 60px;
 }
 
 .site-footer p {
@@ -1690,8 +1695,13 @@ a {
   }
 
   .brand__mark {
-    width: 38px;
-    height: 38px;
+    width: auto;
+    height: 32px;
+  }
+
+  .brand__mark img {
+    height: 32px;
+    max-width: 56px;
   }
 
   .brand__text strong {
