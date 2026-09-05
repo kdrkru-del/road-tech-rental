@@ -241,7 +241,7 @@ a {
   align-items: center;
   justify-content: center;
   width: auto;
-  height: 40px;
+  height: 38px;
   background: transparent;
   border: none;
   border-radius: 0;
@@ -260,7 +260,7 @@ a {
   display: block;
   width: auto;
   height: 38px;
-  max-width: 68px;
+  max-width: 72px;
   object-fit: contain;
 }
 
