@@ -174,15 +174,27 @@
   }
 
   function buildPayload(form) {
-    const service = form.dataset.service || document.body.dataset.service || "Главная страница";
+    const selectedMachine = form.elements.selected_machine ? form.elements.selected_machine.value : "";
+    const service = selectedMachine || form.dataset.service || document.body.dataset.service || "Аренда спецтехники";
+    const name = String(form.elements.name ? form.elements.name.value : "").trim();
+    const phone = String(form.elements.phone ? form.elements.phone.value : "").trim();
+    const location = String(form.elements.location ? form.elements.location.value : "").trim();
+    const message = String(form.elements.message ? form.elements.message.value : "").trim();
+
     return {
-      name: String(form.elements.name.value || "").trim(),
-      phone: String(form.elements.phone.value || "").trim(),
-      service,
+      name: name || "Не указано",
+      phone: phone,
+      service: service,
+      location: location || "Не указан",
+      message: message || "Запрос расчета стоимости аренды техники",
+      _subject: `Заявка с сайта ЗемТрак (zemtrak.ru): ${service} — ${phone}`,
+      _template: "table",
+      _captcha: "false",
+      target_email: "roman.k@mail.ru",
       page_url: window.location.href,
       page_title: document.title,
       ...attribution,
-      timestamp: new Date().toISOString()
+      timestamp: new Date().toLocaleString("ru-RU")
     };
   }
 
@@ -235,7 +247,7 @@
 
       form.reset();
       setPhoneError(form, "");
-      setStatus(form, "Спасибо! Заявка отправлена. Мы скоро свяжемся с вами.", "success");
+      setStatus(form, "Спасибо! Ваша заявка отправлена. Мы свяжемся с вами в течение 10 минут.", "success");
       reachGoal("form_submit", { service: payload.service });
 
       const serviceGoal = goalForService(payload.service);

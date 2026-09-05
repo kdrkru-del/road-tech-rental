@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101312">
+  <meta name="description" content="Контакты компании ЗемТрак: круглосуточный телефон +7 (925) 757-78-88, почта roman.k@mail.ru. Официальные реквизиты ООО «ЮНАТ». Аренда тяжелой спецтехники по всей России.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:title" content="Контакты — Компания ЗемТрак | Аренда спецтехники">
+  <meta property="og:description" content="Контакты и реквизиты компании ЗемТрак (ООО «ЮНАТ»). Телефон: +7 (925) 757-78-88, почта: roman.k@mail.ru, мессенджеры WhatsApp и Telegram.">
+  <title>Контакты — Компания ЗемТрак (zemtrak.ru) | Аренда спецтехники</title>
+  
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/config.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+  
+  <style>
+    .page-hero {
+      background: radial-gradient(circle at top right, rgba(255, 90, 31, 0.18), transparent 60%),
+                  linear-gradient(180deg, #101312 0%, #171c1a 100%);
+      color: var(--white);
+      padding: 130px 0 60px;
+      border-bottom: 1px solid var(--line-light);
+    }
+    .page-breadcrumbs {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.6);
+      margin-bottom: 20px;
+    }
+    .page-breadcrumbs a {
+      color: rgba(255, 255, 255, 0.8);
+      transition: color 0.2s;
+    }
+    .page-breadcrumbs a:hover {
+      color: var(--signal);
+    }
+    .contacts-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+      margin-top: 40px;
+    }
+    .contact-card {
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 32px 28px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .contact-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 18px 45px rgba(0, 0, 0, 0.08);
+    }
+    .contact-card__icon {
+      width: 48px;
+      height: 48px;
+      background: rgba(255, 90, 31, 0.1);
+      color: var(--accent);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+    .contact-card h3 {
+      margin: 0 0 10px;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .contact-card p {
+      margin: 0 0 16px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .contact-card__val {
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--ink);
+      word-break: break-word;
+    }
+    .contact-card__val a {
+      color: inherit;
+      transition: color 0.2s;
+    }
+    .contact-card__val a:hover {
+      color: var(--accent);
+    }
+    .requisites-box {
+      background: #171c1a;
+      color: var(--white);
+      border-radius: var(--radius);
+      padding: 44px;
+      margin-top: 60px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .requisites-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 24px;
+      margin-top: 28px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .req-item label {
+      display: block;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: rgba(255, 255, 255, 0.5);
+      margin-bottom: 6px;
+    }
+    .req-item span {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--white);
+    }
+    .contacts-form-section {
+      padding: 80px 0;
+    }
+    .contacts-layout {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 50px;
+      align-items: start;
+    }
+    @media (max-width: 900px) {
+      .contacts-layout {
+        grid-template-columns: 1fr;
+      }
+      .requisites-box {
+        padding: 28px 20px;
+      }
+    }
+  </style>
+</head>
+<body data-service="Контакты и заявка на спецтехнику">
+  <a class="skip-link" href="#main-content">Перейти к содержанию</a>
+
+  <!-- SITE HEADER -->
+  <header class="site-header" data-header>
+    <div class="container site-header__inner">
+      <a class="brand" href="./" aria-label="На главную ЗемТрак">
+        <span class="brand__mark" aria-hidden="true">ЗТ</span>
+        <span class="brand__text">
+          <strong>ЗемТрак</strong>
+          <small>Дорожная и строительная техника</small>
+        </span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Основная навигация" data-nav>
+        <a href="./">Главная</a>
+        <a href="catalog/">Каталог техники</a>
+        <a href="catalog/#cranes">Краны Zoomlion</a>
+        <a href="catalog/#excavator">Hitachi ZX 200</a>
+        <a href="catalog/#barrier">КМУ и отбойники</a>
+        <a href="./" class="is-active" style="color: var(--accent); font-weight: 700;">Контакты</a>
+      </nav>
+
+      <div class="site-header__actions">
+        <a class="header-phone" href="tel:+79257577888" data-phone-link data-goal="phone_click" aria-label="Позвонить">
+          <span data-phone-display>+7 (925) 757-78-88</span>
+        </a>
+        <a class="button button--small" href="#lead-form" data-goal="calculate_click">Написать нам</a>
+      </div>
+
+      <button class="nav-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="Открыть меню" data-nav-toggle>
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="page-breadcrumbs">
+          <a href="./">Главная</a>
+          <span>/</span>
+          <span>Контакты</span>
+        </div>
+        <p class="eyebrow"><span class="status-indicator"></span>Круглосуточный приём заявок 24/7</p>
+        <h1 style="font-size: clamp(2rem, 4vw, 3.2rem); margin: 0 0 16px; font-weight: 800; line-height: 1.15;">
+          Контакты компании «ЗемТрак»
+        </h1>
+        <p style="font-size: 18px; max-width: 720px; color: rgba(255, 255, 255, 0.85); margin: 0; line-height: 1.6;">
+          Свяжитесь с диспетчерской службой для подбора спецтехники, расчета стоимости смены и доставки тралами по всей России. Все входящие заявки дублируются на почту <strong style="color: var(--signal);">roman.k@mail.ru</strong>.
+        </p>
+      </div>
+    </section>
+
+    <!-- CONTACT CARDS -->
+    <section class="section">
+      <div class="container">
+        <div class="contacts-cards-grid">
+          <!-- Phone -->
+          <div class="contact-card">
+            <div>
+              <div class="contact-card__icon">📞</div>
+              <h3>Телефон диспетчерской</h3>
+              <p>Круглосуточный номер для срочного заказа техники, согласования негабарита и вызова тралов.</p>
+            </div>
+            <div class="contact-card__val">
+              <a href="tel:+79257577888" data-phone-link data-goal="phone_click">+7 (925) 757-78-88</a>
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="contact-card">
+            <div>
+              <div class="contact-card__icon">✉️</div>
+              <h3>Электронная почта</h3>
+              <p>Для проектных смет, договоров, технических заданий и официальных запросов.</p>
+            </div>
+            <div class="contact-card__val">
+              <a href="mailto:roman.k@mail.ru" style="color: var(--accent);">roman.k@mail.ru</a>
+            </div>
+          </div>
+
+          <!-- Messengers -->
+          <div class="contact-card">
+            <div>
+              <div class="contact-card__icon">💬</div>
+              <h3>Мессенджеры</h3>
+              <p>Оперативный расчет сметы, фото и видео техники на объектах, документы онлайн.</p>
+            </div>
+            <div class="contact-card__val" style="display: flex; gap: 14px; align-items: center;">
+              <a href="https://wa.me/79257577888" target="_blank" rel="noopener" style="color: #25d366; font-size: 18px;">WhatsApp</a>
+              <span style="color: var(--line);">•</span>
+              <a href="https://t.me/romanspes" target="_blank" rel="noopener" style="color: #0088cc; font-size: 18px;">Telegram</a>
+            </div>
+          </div>
+
+          <!-- Base & Geography -->
+          <div class="contact-card">
+            <div>
+              <div class="contact-card__icon">📍</div>
+              <h3>Базирование и доставка</h3>
+              <p>Собственный автопарк базируется в Москве и МО. Доставка собственными тралами по всем регионам РФ.</p>
+            </div>
+            <div class="contact-card__val" style="font-size: 16px;">
+              Москва, МО • Вся Россия
+            </div>
+          </div>
+        </div>
+
+        <!-- REQUISITES BOX -->
+        <div class="requisites-box">
+          <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 16px;">
+            <div>
+              <span style="display: inline-block; padding: 4px 10px; background: rgba(255, 200, 46, 0.2); color: var(--signal); border-radius: 6px; font-size: 12px; font-weight: 700; margin-bottom: 8px;">ЮРИДИЧЕСКАЯ ИНФОРМАЦИЯ</span>
+              <h2 style="margin: 0; font-size: 26px; font-weight: 800;">Реквизиты организации</h2>
+            </div>
+            <p style="margin: 0; font-size: 14px; color: rgba(255, 255, 255, 0.7);">
+              Работаем с НДС 20% и без НДС. Заключаем официальный договор аренды спецтехники.
+            </p>
+          </div>
+
+          <div class="requisites-grid">
+            <div class="req-item">
+              <label>Наименование</label>
+              <span>ООО «ЮНАТ»</span>
+            </div>
+            <div class="req-item">
+              <label>ИНН</label>
+              <span>2536345868</span>
+            </div>
+            <div class="req-item">
+              <label>КПП</label>
+              <span>253601001</span>
+            </div>
+            <div class="req-item">
+              <label>ОГРН</label>
+              <span>1242500018859</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT FORM SECTION -->
+    <section class="section contacts-form-section" id="lead-form" style="background: var(--sand); border-top: 1px solid var(--line);">
+      <div class="container">
+        <div class="contacts-layout">
+          <div>
+            <p class="eyebrow" style="color: var(--accent);"><span class="status-indicator"></span>Прямой запрос диспетчеру</p>
+            <h2 style="font-size: clamp(1.8rem, 3.2vw, 2.5rem); margin: 0 0 16px; font-weight: 800; line-height: 1.2;">
+              Отправьте заявку на расчет спецтехники
+            </h2>
+            <p style="font-size: 16px; color: var(--muted); line-height: 1.6; margin-bottom: 24px;">
+              Заполните краткую форму — информация мгновенно поступит на почту <strong style="color: var(--ink);">roman.k@mail.ru</strong> и дежурному инженеру. Мы рассчитаем точную смету с доставкой и перезвоним вам в течение 10 минут.
+            </p>
+            <div style="background: var(--white); border: 1px solid var(--line); border-radius: var(--radius-sm); padding: 20px; font-size: 14px;">
+              <strong style="color: var(--ink); display: block; margin-bottom: 6px;">Что входит в стоимость смены:</strong>
+              <ul style="margin: 0; padding-left: 20px; color: var(--muted); line-height: 1.6;">
+                <li>Опытный аттестованный машинист с допусками Ростехнадзора</li>
+                <li>Топливо (ГСМ) и расходные материалы</li>
+                <li>Оформление спецразрешений на негабарит</li>
+                <li>Работа по официальному договору с НДС 20%</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="form-card" style="background: var(--white); box-shadow: var(--shadow);">
+            <div class="form-card__header">
+              <h3 style="margin: 0 0 6px;">Заявка на расчет техники</h3>
+              <p style="margin: 0; font-size: 13px; color: var(--muted);">Запрос отправляется напрямую на roman.k@mail.ru</p>
+            </div>
+            
+            <form class="lead-form" data-lead-form novalidate>
+              <input type="hidden" name="selected_machine" value="Запрос со страницы Контакты">
+
+              <label class="field">
+                <span class="field__label">Телефон для связи <b style="color: var(--accent);">*</b></span>
+                <input class="field__input" name="phone" type="tel" inputmode="tel" placeholder="+7 (___) ___-__-__" required aria-describedby="contacts-phone-error">
+                <span class="field__error" id="contacts-phone-error" data-field-error></span>
+              </label>
+
+              <label class="field">
+                <span class="field__label">Ваше имя</span>
+                <input class="field__input" name="name" type="text" placeholder="Как к вам обращаться">
+              </label>
+
+              <label class="field">
+                <span class="field__label">Город или адрес объекта</span>
+                <input class="field__input" name="location" type="text" placeholder="Например: Москва / Подольск / Казань">
+              </label>
+
+              <label class="field">
+                <span class="field__label">Какая техника или задача интересует?</span>
+                <input class="field__input" name="message" type="text" placeholder="Например: Кран Zoomlion 100т на 5 смен / Hitachi 200">
+              </label>
+
+              <div class="hp-field" aria-hidden="true" style="display:none;">
+                <label>Компания <input name="company" type="text" tabindex="-1" autocomplete="off"></label>
+              </div>
+
+              <button class="button button--full" type="submit" data-submit>Отправить заявку на roman.k@mail.ru</button>
+              <p class="form-note">Нажимая кнопку, вы даете согласие на обработку персональных данных.</p>
+              <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div class="brand brand--footer">
+        <span class="brand__mark" aria-hidden="true">ЗТ</span>
+        <span class="brand__text">
+          <strong>ЗемТрак</strong>
+          <small>Аренда дорожной и строительной техники по всей России</small>
+        </span>
+      </div>
+      <p>ООО «ЮНАТ» • ИНН 2536345868 • КПП 253601001 • ОГРН 1242500018859. Краны Zoomlion 80-600т, экскаваторы Hitachi ZX 200LC-5G, КМУ 7т, монтаж барьерного ограждения, дорожная техника Wirtgen.</p>
+      <p>© <span data-current-year></span> Компания «ЗемТрак» (<a href="https://zemtrak.ru" style="color: inherit; text-decoration: underline;">zemtrak.ru</a>). Все права защищены.</p>
+      <p class="site-footer__dev" style="margin-top: 8px; font-size: 13px; color: var(--muted);">Создание и продвижение: <a href="https://voltrena.ru" target="_blank" rel="noopener noreferrer" style="color: var(--accent); font-weight: 600; text-decoration: underline; text-underline-offset: 3px;">voltrena.ru</a></p>
+    </div>
+  </footer>
+
+  <!-- MOBILE FIXED ACTION BAR -->
+  <div class="mobile-cta" aria-label="Быстрые действия">
+    <a class="mobile-cta__phone" href="tel:+79257577888" data-phone-link data-goal="phone_click">Позвонить</a>
+    <a class="mobile-cta__calculate" href="#lead-form" data-goal="calculate_click">Написать</a>
+  </div>
+</body>
+</html>
