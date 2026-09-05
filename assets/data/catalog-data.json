@@ -70,6 +70,221 @@
                 "rytyo-transhey",
                 "demontazh-fundamentov"
               ]
+            },
+            {
+              "slug": "caterpillar-cat-320d-l00325",
+              "title": "Гусеничный экскаватор Caterpillar (Cat) 320D",
+              "brand": "Caterpillar (Cat)",
+              "modelName": "320D",
+              "fleetCount": 1,
+              "price": "от 28 000 ₽/смена",
+              "isVerifiedFleet": true,
+              "badge": "В наличии: 1 ед. (ПСМ/Гостехнадзор)",
+              "image": "/assets/images/excavators/hitachi-zx200.webp",
+              "specs": {
+                "Год выпуска": "2012",
+                "Мощность": "103 кВт (140 л.с.)",
+                "ПСМ / Регистрация": "ПСМ 000325",
+                "Количество в парке": "1 единиц",
+                "Базирование": "Москва и МО (выезд по РФ)",
+                "Условия аренды": "С опытным машинистом и ГСМ, НДС 22%"
+              },
+              "plates": [],
+              "suitableTasks": [
+                "Профессиональные работы с использованием Гусеничный экскаватор Caterpillar (Cat) 320D",
+                "Работа на коммерческих и инфраструктурных объектах",
+                "Срочная подача по Москве, МО и регионам РФ"
+              ],
+              "relatedServices": [
+                "razrabotka-kotlovanov",
+                "vyemka-grunta",
+                "ustroystvo-nasypey",
+                "snos-zdaniy-sooruzheniy"
+              ]
+            },
+            {
+              "slug": "hitachi-zx-200lc-5g-000593",
+              "title": "Гусеничный экскаватор Hitachi ZX 200LC-5G",
+              "brand": "Hitachi",
+              "modelName": "ZX 200LC-5G",
+              "fleetCount": 5,
+              "price": "от 28 000 ₽/смена",
+              "isVerifiedFleet": true,
+              "badge": "В наличии: 5 ед. (г/н 0087 МР 77)",
+              "image": "/assets/images/excavators/hitachi-zx200.webp",
+              "specs": {
+                "ПСМ / Регистрация": "ПСМ MK 044525",
+                "Количество в парке": "5 единиц",
+                "Базирование": "Москва и МО (выезд по РФ)",
+                "Условия аренды": "С опытным машинистом и ГСМ, НДС 22%"
+              },
+              "plates": [
+                "0087 МР 77"
+              ],
+              "suitableTasks": [
+                "Профессиональные работы с использованием Гусеничный экскаватор Hitachi ZX 200LC-5G",
+                "Работа на коммерческих и инфраструктурных объектах",
+                "Срочная подача по Москве, МО и регионам РФ"
+              ],
+              "relatedServices": [
+                "razrabotka-kotlovanov",
+                "vyemka-grunta",
+                "ustroystvo-nasypey",
+                "snos-zdaniy-sooruzheniy"
+              ]
+            },
+            {
+              "slug": "hitachi-zx-240-3-020991",
+              "title": "Гусеничный экскаватор Hitachi ZX 240-3",
+              "brand": "Hitachi",
+              "modelName": "ZX 240-3",
+              "fleetCount": 1,
+              "price": "от 28 000 ₽/смена",
+              "isVerifiedFleet": true,
+              "badge": "В наличии: 1 ед. (ПСМ/Гостехнадзор)",
+              "image": "/assets/images/excavators/hitachi-zx200.webp",
+              "specs": {
+                "ПСМ / Регистрация": "ПСМ BE 058861",
+                "Количество в парке": "1 единиц",
+                "Базирование": "Москва и МО (выезд по РФ)",
+                "Условия аренды": "С опытным машинистом и ГСМ, НДС 22%"
+              },
+              "plates": [],
+              "suitableTasks": [
+                "Профессиональные работы с использованием Гусеничный экскаватор Hitachi ZX 240-3",
+                "Работа на коммерческих и инфраструктурных объектах",
+                "Срочная подача по Москве, МО и регионам РФ"
+              ],
+              "relatedServices": [
+                "razrabotka-kotlovanov",
+                "vyemka-grunta",
+                "ustroystvo-nasypey",
+                "snos-zdaniy-sooruzheniy"
+              ]
+            },
+            {
+              "slug": "hyundai-robex-r210lc-7-014",
+              "title": "Гусеничный экскаватор Hyundai Robex R210LC-7",
+              "brand": "Hyundai",
+              "modelName": "Robex R210LC-7",
+              "fleetCount": 3,
+              "price": "от 28 000 ₽/смена",
+              "isVerifiedFleet": true,
+              "badge": "В наличии: 3 ед. (г/н U801ЕU 000)",
+              "image": "/assets/images/excavators/hitachi-zx200.webp",
+              "specs": {
+                "ПСМ / Регистрация": "ПСМ OR 119049",
+                "Количество в парке": "3 единиц",
+                "Базирование": "Москва и МО (выезд по РФ)",
+                "Условия аренды": "С опытным машинистом и ГСМ, НДС 22%"
+              },
+              "plates": [
+                "U801ЕU 000"
+              ],
+              "suitableTasks": [
+                "Профессиональные работы с использованием Гусеничный экскаватор Hyundai Robex R210LC-7",
+                "Работа на коммерческих и инфраструктурных объектах",
+                "Срочная подача по Москве, МО и регионам РФ"
+              ],
+              "relatedServices": [
+                "razrabotka-kotlovanov",
+                "vyemka-grunta",
+                "ustroystvo-nasypey",
+                "snos-zdaniy-sooruzheniy"
+              ]
+            },
+            {
+              "slug": "hyundai-robex-r220lc-9s-00e645",
+              "title": "Гусеничный экскаватор Hyundai Robex R220LC-9S",
+              "brand": "Hyundai",
+              "modelName": "Robex R220LC-9S",
+              "fleetCount": 1,
+              "price": "от 28 000 ₽/смена",
+              "isVerifiedFleet": true,
+              "badge": "В наличии: 1 ед. (г/н Z614РК 000)",
+              "image": "/assets/images/excavators/hitachi-zx200.webp",
+              "specs": {
+                "ПСМ / Регистрация": "ПСМ TK 106025",
+                "Количество в парке": "1 единиц",
+                "Базирование": "Москва и МО (выезд по РФ)",
+                "Условия аренды": "С опытным машинистом и ГСМ, НДС 22%"
+              },
+              "plates": [
+                "Z614РК 000"
+              ],
+              "suitableTasks": [
+                "Профессиональные работы с использованием Гусеничный экскаватор Hyundai Robex R220LC-9S",
+                "Работа на коммерческих и инфраструктурных объектах",
+                "Срочная подача по Москве, МО и регионам РФ"
+              ],
+              "relatedServices": [
+                "razrabotka-kotlovanov",
+                "vyemka-grunta",
+                "ustroystvo-nasypey",
+                "snos-zdaniy-sooruzheniy"
+              ]
+            },
+            {
+              "slug": "sany-sy215c-767489",
+              "title": "Гусеничный экскаватор Sany SY215C",
+              "brand": "Sany",
+              "modelName": "SY215C",
+              "fleetCount": 4,
+              "price": "от 28 000 ₽/смена",
+              "isVerifiedFleet": true,
+              "badge": "В наличии: 4 ед. (ПСМ/Гостехнадзор)",
+              "image": "/assets/images/excavators/hitachi-zx200.webp",
+              "specs": {
+                "ПСМ / Регистрация": "ПСМ VH 000013",
+                "Количество в парке": "4 единиц",
+                "Базирование": "Москва и МО (выезд по РФ)",
+                "Условия аренды": "С опытным машинистом и ГСМ, НДС 22%"
+              },
+              "plates": [],
+              "suitableTasks": [
+                "Профессиональные работы с использованием Гусеничный экскаватор Sany SY215C",
+                "Работа на коммерческих и инфраструктурных объектах",
+                "Срочная подача по Москве, МО и регионам РФ"
+              ],
+              "relatedServices": [
+                "razrabotka-kotlovanov",
+                "vyemka-grunta",
+                "ustroystvo-nasypey",
+                "snos-zdaniy-sooruzheniy"
+              ]
+            },
+            {
+              "slug": "tzco-tz260c3-023",
+              "title": "Гусеничный экскаватор TZCO TZ260C3",
+              "brand": "TZCO",
+              "modelName": "TZ260C3",
+              "fleetCount": 23,
+              "price": "от 28 000 ₽/смена",
+              "isVerifiedFleet": true,
+              "badge": "В наличии: 23 ед. (г/н 1218 АJ 001, 2085 ТZ 260, 4682 ОТ 26)",
+              "image": "/assets/images/excavators/hitachi-zx200.webp",
+              "specs": {
+                "ПСМ / Регистрация": "ПСМ 100000000902159",
+                "Количество в парке": "23 единиц",
+                "Базирование": "Москва и МО (выезд по РФ)",
+                "Условия аренды": "С опытным машинистом и ГСМ, НДС 22%"
+              },
+              "plates": [
+                "1218 АJ 001",
+                "2085 ТZ 260",
+                "4682 ОТ 26"
+              ],
+              "suitableTasks": [
+                "Профессиональные работы с использованием Гусеничный экскаватор TZCO TZ260C3",
+                "Работа на коммерческих и инфраструктурных объектах",
+                "Срочная подача по Москве, МО и регионам РФ"
+              ],
+              "relatedServices": [
+                "razrabotka-kotlovanov",
+                "vyemka-grunta",
+                "ustroystvo-nasypey",
+                "snos-zdaniy-sooruzheniy"
+              ]
             }
           ]
         },
@@ -161,6 +376,222 @@
             "obratnaya-zasypka",
             "pogruzka-sypuchih",
             "uborka-snega"
+          ],
+          "models": [
+            {
+              "slug": "bobcat-b780-011008",
+              "title": "Экскаватор-погрузчик Bobcat B780",
+              "brand": "Bobcat",
+              "modelName": "B780",
+              "fleetCount": 3,
+              "price": "от 21 600 ₽/смена",
+              "isVerifiedFleet": true,
+              "badge": "В наличии: 3 ед. (г/н 3161 ОТ 05, С410АВ 391)",
+              "image": "/assets/images/equipment/backhoe_loader.webp",
+              "specs": {
+                "ПСМ / Регистрация": "ПСМ TH111949",
+                "Количество в парке": "3 единиц",
+                "Базирование": "Москва и МО (выезд по РФ)",
+                "Условия аренды": "С опытным машинистом и ГСМ, НДС 22%"
+              },
+              "plates": [
+                "3161 ОТ 05",
+                "С410АВ 391"
+              ],
+              "suitableTasks": [
+                "Профессиональные работы с использованием Экскаватор-погрузчик Bobcat B780",
+                "Работа на коммерческих и инфраструктурных объектах",
+                "Срочная подача по Москве, МО и регионам РФ"
+              ],
+              "relatedServices": [
+                "rytyo-transhey",
+                "obratnaya-zasypka",
+                "pogruzka-sypuchih",
+                "uborka-snega"
+              ]
+            },
+            {
+              "slug": "case-580t-958558",
+              "title": "Экскаватор-погрузчик Case 580T",
+              "brand": "Case",
+              "modelName": "580T",
+              "fleetCount": 1,
+              "price": "от 21 600 ₽/смена",
+              "isVerifiedFleet": true,
+              "badge": "В наличии: 1 ед. (ПСМ/Гостехнадзор)",
+              "image": "/assets/images/equipment/backhoe_loader.webp",
+              "specs": {
+                "Количество в парке": "1 единиц",
+                "Базирование": "Москва и МО (выезд по РФ)",
+                "Условия аренды": "С опытным машинистом и ГСМ, НДС 22%"
+              },
+              "plates": [],
+              "suitableTasks": [
+                "Профессиональные работы с использованием Экскаватор-погрузчик Case 580T",
+                "Работа на коммерческих и инфраструктурных объектах",
+                "Срочная подача по Москве, МО и регионам РФ"
+              ],
+              "relatedServices": [
+                "rytyo-transhey",
+                "obratnaya-zasypka",
+                "pogruzka-sypuchih",
+                "uborka-snega"
+              ]
+            },
+            {
+              "slug": "case-770ex-4wd-h44254",
+              "title": "Экскаватор-погрузчик Case 770EX-4WD",
+              "brand": "Case",
+              "modelName": "770EX-4WD",
+              "fleetCount": 1,
+              "price": "от 21 600 ₽/смена",
+              "isVerifiedFleet": true,
+              "badge": "В наличии: 1 ед. (ПСМ/Гостехнадзор)",
+              "image": "/assets/images/equipment/backhoe_loader.webp",
+              "specs": {
+                "Год выпуска": "2024",
+                "ПСМ / Регистрация": "ПСМ 364302005133891",
+                "Количество в парке": "1 единиц",
+                "Базирование": "Москва и МО (выезд по РФ)",
+                "Условия аренды": "С опытным машинистом и ГСМ, НДС 22%"
+              },
+              "plates": [],
+              "suitableTasks": [
+                "Профессиональные работы с использованием Экскаватор-погрузчик Case 770EX-4WD",
+                "Работа на коммерческих и инфраструктурных объектах",
+                "Срочная подача по Москве, МО и регионам РФ"
+              ],
+              "relatedServices": [
+                "rytyo-transhey",
+                "obratnaya-zasypka",
+                "pogruzka-sypuchih",
+                "uborka-snega"
+              ]
+            },
+            {
+              "slug": "jcb-3cx-super-sm-4t-475910",
+              "title": "Экскаватор-погрузчик JCB 3CX Super / SM 4T",
+              "brand": "JCB",
+              "modelName": "3CX Super / SM 4T",
+              "fleetCount": 11,
+              "price": "от 21 600 ₽/смена",
+              "isVerifiedFleet": true,
+              "badge": "В наличии: 11 ед. (г/н 2024 SУ 009, 1555 SВ 320, 1797 НН 972)",
+              "image": "/assets/images/equipment/jcb_3cx.webp",
+              "specs": {
+                "ПСМ / Регистрация": "ПСМ CL 260202",
+                "Количество в парке": "11 единиц",
+                "Базирование": "Москва и МО (выезд по РФ)",
+                "Условия аренды": "С опытным машинистом и ГСМ, НДС 22%"
+              },
+              "plates": [
+                "2024 SУ 009",
+                "1555 SВ 320",
+                "1797 НН 972"
+              ],
+              "suitableTasks": [
+                "Профессиональные работы с использованием Экскаватор-погрузчик JCB 3CX Super / SM 4T",
+                "Работа на коммерческих и инфраструктурных объектах",
+                "Срочная подача по Москве, МО и регионам РФ"
+              ],
+              "relatedServices": [
+                "rytyo-transhey",
+                "obratnaya-zasypka",
+                "pogruzka-sypuchih",
+                "uborka-snega"
+              ]
+            },
+            {
+              "slug": "jcb-4cx-669481",
+              "title": "Экскаватор-погрузчик JCB 4CX",
+              "brand": "JCB",
+              "modelName": "4CX",
+              "fleetCount": 1,
+              "price": "от 21 600 ₽/смена",
+              "isVerifiedFleet": true,
+              "badge": "В наличии: 1 ед. (ПСМ/Гостехнадзор)",
+              "image": "/assets/images/equipment/jcb_3cx.webp",
+              "specs": {
+                "Год выпуска": "2018",
+                "ПСМ / Регистрация": "ПСМ 364303005563002",
+                "Количество в парке": "1 единиц",
+                "Базирование": "Москва и МО (выезд по РФ)",
+                "Условия аренды": "С опытным машинистом и ГСМ, НДС 22%"
+              },
+              "plates": [],
+              "suitableTasks": [
+                "Профессиональные работы с использованием Экскаватор-погрузчик JCB 4CX",
+                "Работа на коммерческих и инфраструктурных объектах",
+                "Срочная подача по Москве, МО и регионам РФ"
+              ],
+              "relatedServices": [
+                "rytyo-transhey",
+                "obratnaya-zasypka",
+                "pogruzka-sypuchih",
+                "uborka-snega"
+              ]
+            },
+            {
+              "slug": "komatsu-wb97s-f31620",
+              "title": "Экскаватор-погрузчик Komatsu WB97S",
+              "brand": "Komatsu",
+              "modelName": "WB97S",
+              "fleetCount": 1,
+              "price": "от 21 600 ₽/смена",
+              "isVerifiedFleet": true,
+              "badge": "В наличии: 1 ед. (г/н 4958 ХТ 77)",
+              "image": "/assets/images/equipment/backhoe_loader.webp",
+              "specs": {
+                "Год выпуска": "2024",
+                "ПСМ / Регистрация": "ПСМ CM430722",
+                "Количество в парке": "1 единиц",
+                "Базирование": "Москва и МО (выезд по РФ)",
+                "Условия аренды": "С опытным машинистом и ГСМ, НДС 22%"
+              },
+              "plates": [
+                "4958 ХТ 77"
+              ],
+              "suitableTasks": [
+                "Профессиональные работы с использованием Экскаватор-погрузчик Komatsu WB97S",
+                "Работа на коммерческих и инфраструктурных объектах",
+                "Срочная подача по Москве, МО и регионам РФ"
+              ],
+              "relatedServices": [
+                "rytyo-transhey",
+                "obratnaya-zasypka",
+                "pogruzka-sypuchih",
+                "uborka-snega"
+              ]
+            },
+            {
+              "slug": "liugong-clg777a-503371",
+              "title": "Экскаватор-погрузчик LiuGong CLG777A",
+              "brand": "LiuGong",
+              "modelName": "CLG777A",
+              "fleetCount": 1,
+              "price": "от 21 600 ₽/смена",
+              "isVerifiedFleet": true,
+              "badge": "В наличии: 1 ед. (ПСМ/Гостехнадзор)",
+              "image": "/assets/images/equipment/jcb_3cx.webp",
+              "specs": {
+                "ПСМ / Регистрация": "ПСМ PC503371",
+                "Количество в парке": "1 единиц",
+                "Базирование": "Москва и МО (выезд по РФ)",
+                "Условия аренды": "С опытным машинистом и ГСМ, НДС 22%"
+              },
+              "plates": [],
+              "suitableTasks": [
+                "Профессиональные работы с использованием Экскаватор-погрузчик LiuGong CLG777A",
+                "Работа на коммерческих и инфраструктурных объектах",
+                "Срочная подача по Москве, МО и регионам РФ"
+              ],
+              "relatedServices": [
+                "rytyo-transhey",
+                "obratnaya-zasypka",
+                "pogruzka-sypuchih",
+                "uborka-snega"
+              ]
+            }
           ]
         },
         {
@@ -827,6 +1258,34 @@
                 "razgruzka-negabarita",
                 "fasadnye-raboty"
               ]
+            },
+            {
+              "slug": "zoomlion-ztc250v-714054",
+              "title": "Автокран Zoomlion ZTC250V",
+              "brand": "Zoomlion",
+              "modelName": "ZTC250V",
+              "fleetCount": 4,
+              "price": "от 28 000 ₽/смена",
+              "isVerifiedFleet": true,
+              "badge": "В наличии: 4 ед. (ПСМ/Гостехнадзор)",
+              "image": "/assets/images/cranes/zoomlion-ztc.webp",
+              "specs": {
+                "ПСМ / Регистрация": "ПСМ ПП 772048",
+                "Количество в парке": "4 единиц",
+                "Базирование": "Москва и МО (выезд по РФ)",
+                "Условия аренды": "С опытным машинистом и ГСМ, НДС 22%"
+              },
+              "plates": [],
+              "suitableTasks": [
+                "Профессиональные работы с использованием Автокран Zoomlion ZTC250V",
+                "Работа на коммерческих и инфраструктурных объектах",
+                "Срочная подача по Москве, МО и регионам РФ"
+              ],
+              "relatedServices": [
+                "podem-montazh-konstruktsiy",
+                "ustanovka-balok-ferm",
+                "takelazh-oborudovaniya"
+              ]
             }
           ]
         },
@@ -1175,6 +1634,37 @@
             "snos-zdaniy-sooruzheniy",
             "demontazh-fundamentov",
             "pererabotka-stroitelnogo-loma"
+          ],
+          "models": [
+            {
+              "slug": "liebherr-a934c-036539",
+              "title": "Перевалочный экскаватор Liebherr A934C",
+              "brand": "Liebherr",
+              "modelName": "A934C",
+              "fleetCount": 1,
+              "price": "от 33 600 ₽/смена",
+              "isVerifiedFleet": true,
+              "badge": "В наличии: 1 ед. (ПСМ/Гостехнадзор)",
+              "image": "/assets/images/equipment/demolition_excavator.webp",
+              "specs": {
+                "Год выпуска": "2008",
+                "ПСМ / Регистрация": "ПСМ ZK038561",
+                "Количество в парке": "1 единиц",
+                "Базирование": "Москва и МО (выезд по РФ)",
+                "Условия аренды": "С опытным машинистом и ГСМ, НДС 22%"
+              },
+              "plates": [],
+              "suitableTasks": [
+                "Профессиональные работы с использованием Перевалочный экскаватор Liebherr A934C",
+                "Работа на коммерческих и инфраструктурных объектах",
+                "Срочная подача по Москве, МО и регионам РФ"
+              ],
+              "relatedServices": [
+                "snos-zdaniy-sooruzheniy",
+                "demontazh-fundamentov",
+                "pererabotka-stroitelnogo-loma"
+              ]
+            }
           ]
         },
         {
@@ -3420,5 +3910,6 @@
     "whatsapp": "https://wa.me/79257577888",
     "schedule": "Круглосуточно 24/7",
     "coverage": "Москва, Московская область, вся Россия"
-  }
+  },
+  "totalFleetVerifiedUnits": 78
 }
