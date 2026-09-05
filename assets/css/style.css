@@ -5242,3 +5242,215 @@ body .section--callback .form-privacy {
   }
 }
 
+
+
+/* ==========================================================================
+   ARCHITECTURAL SECTIONS & SECTION 10 HOMEPAGE COMPONENTS
+   ========================================================================== */
+
+/* Advantages Section */
+.section--advantages {
+  background: #fbfaf7;
+  padding: 80px 0;
+}
+
+.advantages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+  margin-top: 36px;
+}
+
+.advantage-card {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.advantage-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.07);
+  border-color: rgba(255, 90, 31, 0.35);
+}
+
+.advantage-card .adv-icon {
+  font-size: 36px;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.advantage-card h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--ink);
+  margin: 0;
+}
+
+.advantage-card p {
+  font-size: 15px;
+  color: var(--muted);
+  line-height: 1.55;
+  margin: 0;
+}
+
+/* Steps List & Numbers */
+.steps-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 40px 0 0;
+}
+
+.steps-list li {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 32px 28px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.step-num {
+  display: inline-block;
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--accent);
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.steps-list h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.steps-list p {
+  margin: 0;
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+/* Callback Features */
+.callback-features {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.cb-feat {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+/* Final CTA Section */
+.section--final-cta {
+  padding: 80px 0;
+  background: var(--paper);
+}
+
+.final-cta-card {
+  background: linear-gradient(135deg, #101312 0%, #1f2724 100%);
+  color: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 56px 48px;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 48px;
+  align-items: center;
+  box-shadow: var(--shadow);
+  position: relative;
+  overflow: hidden;
+}
+
+.final-cta-card::before {
+  content: "";
+  position: absolute;
+  top: -40%;
+  right: -20%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(255, 90, 31, 0.25) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.final-cta-content h2 {
+  font-size: 34px;
+  line-height: 1.25;
+  color: #ffffff;
+  margin: 12px 0 16px;
+}
+
+.final-cta-content p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.6;
+}
+
+.final-cta-form {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 32px;
+  border-radius: var(--radius);
+  backdrop-filter: blur(8px);
+}
+
+.final-cta-form label {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.final-cta-form input {
+  background: rgba(255, 255, 255, 0.95);
+  color: #101312;
+  border: 1px solid transparent;
+}
+
+.final-cta-form input:focus {
+  background: #ffffff;
+  border-color: var(--accent);
+  outline: none;
+}
+
+.final-cta-form .form-privacy {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 12px;
+}
+
+@media (max-width: 900px) {
+  .final-cta-card {
+    grid-template-columns: 1fr;
+    padding: 36px 24px;
+    gap: 32px;
+  }
+  .final-cta-content h2 {
+    font-size: 26px;
+  }
+}
+
+/* Home Contacts Section */
+.section--home-contacts {
+  padding: 80px 0;
+  background: var(--white);
+}
+
+.section--home-contacts .section-heading {
+  margin-bottom: 40px;
+}

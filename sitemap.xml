@@ -11,87 +11,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://zemtrak.ru/contacts/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://zemtrak.ru/catalog/gusenichnye-ekskavatory/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://zemtrak.ru/catalog/gusenichnye-ekskavatory/hitachi-zx200/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://zemtrak.ru/catalog/kolyosnye-ekskavatory/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://zemtrak.ru/catalog/mini-ekskavatory/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://zemtrak.ru/catalog/ekskavatory-pogruzchiki/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://zemtrak.ru/catalog/transheekopateli-gruntorezy/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://zemtrak.ru/catalog/frontalnye-pogruzchiki/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://zemtrak.ru/catalog/teleskopicheskie-pogruzchiki/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://zemtrak.ru/catalog/mini-pogruzchiki/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://zemtrak.ru/catalog/vilochnye-pogruzchiki/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://zemtrak.ru/catalog/buldozery/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://zemtrak.ru/catalog/avtogreydery/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://zemtrak.ru/catalog/gruntovye-katki/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://zemtrak.ru/catalog/dorozhnye-frezy/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://zemtrak.ru/catalog/dorozhnye-frezy/wirtgen-w130-cf/</loc>
+    <loc>https://zemtrak.ru/catalog/asfaltoukladchiki/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -106,42 +26,22 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/catalog/asfaltoukladchiki/</loc>
+    <loc>https://zemtrak.ru/catalog/avtobetononasosy/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/catalog/dorozhnye-katki/</loc>
+    <loc>https://zemtrak.ru/catalog/avtobetonosmesiteli/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/avtogreydery/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://zemtrak.ru/catalog/avtogudronatory/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://zemtrak.ru/catalog/zalivshchiki-shvov/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://zemtrak.ru/catalog/dorozhnye-razmetochnye-mashiny/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://zemtrak.ru/catalog/samosvaly/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://zemtrak.ru/catalog/tonary/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://zemtrak.ru/catalog/bortovye-gruzoviki-shalandy/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -161,6 +61,121 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://zemtrak.ru/catalog/avtovyshki/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/betonnye-raboty-i-tehnika/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/bortovye-gruzoviki-shalandy/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/buldozery/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/burovaya-i-svaynaya-tehnika/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/burovye-ustanovki-buroyamy/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/demontazhnaya-tehnika/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/dorozhno-stroitelnaya-tehnika/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/dorozhnye-frezy/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/dorozhnye-frezy/wirtgen-w130-cf/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/dorozhnye-katki/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/dorozhnye-razmetochnye-mashiny/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/drobilnye-kovshi-i-drobilki/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/ekskavatory-pogruzchiki/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/ekskavatory-s-gidronozhnicami/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/frontalnye-pogruzchiki/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/gidromoloty/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/gruntovye-katki/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/gruzovaya-i-samosvalnaya-tehnika/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/gusenichnye-ekskavatory/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/gusenichnye-ekskavatory/hitachi-zx200/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/ilososnye-i-kanalopromyvochnye-mashiny/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/karyernaya-tehnika/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://zemtrak.ru/catalog/kmu-manipulyatory/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -171,7 +186,37 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/catalog/avtovyshki/</loc>
+    <loc>https://zemtrak.ru/catalog/kolyosnye-ekskavatory/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/kombinirovannye-dorozhnye-mashiny/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/kommunalnaya-i-uborochnaya-tehnika/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/mini-ekskavatory/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/mini-pogruzchiki/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/mobilnye-generatory-kompressory/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/mobilnye-grohoty/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -186,6 +231,36 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://zemtrak.ru/catalog/planirovochnaya-i-gruntovaya-tehnika/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/podyomnaya-tehnika/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/pogruzochnaya-tehnika/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/samosvaly/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/sochlenyonnye-samosvaly/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/catalog/spetsialnaya-tehnika-i-oborudovanie/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://zemtrak.ru/catalog/svaeboynye-mashiny-ograzhdeniy/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -196,62 +271,27 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/catalog/burovye-ustanovki-buroyamy/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://zemtrak.ru/catalog/svaeboynye-ustanovki/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/catalog/vibropogruzhateli/</loc>
+    <loc>https://zemtrak.ru/catalog/teleskopicheskie-pogruzchiki/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/catalog/ekskavatory-s-gidronozhnicami/</loc>
+    <loc>https://zemtrak.ru/catalog/tonary/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/catalog/gidromoloty/</loc>
+    <loc>https://zemtrak.ru/catalog/transheekopateli-gruntorezy/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/catalog/drobilnye-kovshi-i-drobilki/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://zemtrak.ru/catalog/kombinirovannye-dorozhnye-mashiny/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://zemtrak.ru/catalog/ilososnye-i-kanalopromyvochnye-mashiny/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://zemtrak.ru/catalog/sochlenyonnye-samosvaly/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://zemtrak.ru/catalog/mobilnye-grohoty/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://zemtrak.ru/catalog/avtobetononasosy/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://zemtrak.ru/catalog/avtobetonosmesiteli/</loc>
+    <loc>https://zemtrak.ru/catalog/transportirovka-spetstehniki/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -261,282 +301,367 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/catalog/mobilnye-generatory-kompressory/</loc>
+    <loc>https://zemtrak.ru/catalog/vibropogruzhateli/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/razrabotka-kotlovanov/</loc>
+    <loc>https://zemtrak.ru/catalog/vilochnye-pogruzchiki/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/rytyo-transhey/</loc>
+    <loc>https://zemtrak.ru/catalog/zalivshchiki-shvov/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/vyemka-grunta/</loc>
+    <loc>https://zemtrak.ru/catalog/zemleroynaya-tehnika/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/obratnaya-zasypka/</loc>
+    <loc>https://zemtrak.ru/contacts/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/vertikalnaya-planirovka/</loc>
+    <loc>https://zemtrak.ru/services/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/srezka-rastitelnogo-sloya/</loc>
+    <loc>https://zemtrak.ru/services/blagoustroystvo/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/ustroystvo-nasypey/</loc>
+    <loc>https://zemtrak.ru/services/blagoustroystvo/korchevanie-pney/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/vyemka-skalnogo-grunta/</loc>
+    <loc>https://zemtrak.ru/services/blagoustroystvo/podgotovka-territorii/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/holodnoe-frezerovanie/</loc>
+    <loc>https://zemtrak.ru/services/blagoustroystvo/ustroystvo-vremennyh-dorog/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/ukladka-litogo-asfalta/</loc>
+    <loc>https://zemtrak.ru/services/dorozhnye-raboty/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/ukladka-goryachego-asfalta/</loc>
+    <loc>https://zemtrak.ru/services/dorozhnye-raboty/germetizaciya-shvov/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/yamochniy-remont/</loc>
+    <loc>https://zemtrak.ru/services/dorozhnye-raboty/holodnoe-frezerovanie/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/ustroystvo-osnovaniya/</loc>
+    <loc>https://zemtrak.ru/services/dorozhnye-raboty/nanesenie-razmetki/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/nanesenie-razmetki/</loc>
+    <loc>https://zemtrak.ru/services/dorozhnye-raboty/ukladka-goryachego-asfalta/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/germetizaciya-shvov/</loc>
+    <loc>https://zemtrak.ru/services/dorozhnye-raboty/ukladka-litogo-asfalta/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/ustroystvo-obochin-kyuvetov/</loc>
+    <loc>https://zemtrak.ru/services/dorozhnye-raboty/ustroystvo-obochin-kyuvetov/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/montazh-barernogo-ograzhdeniya/</loc>
+    <loc>https://zemtrak.ru/services/dorozhnye-raboty/ustroystvo-osnovaniya/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/zabivka-stoek-ograzhdeniya/</loc>
+    <loc>https://zemtrak.ru/services/dorozhnye-raboty/yamochniy-remont/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/perilnye-ograzhdeniya/</loc>
+    <loc>https://zemtrak.ru/services/inzhenernye-seti/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/shumozashchitnye-ekrany/</loc>
+    <loc>https://zemtrak.ru/services/inzhenernye-seti/bestransheynaya-prokladka-gnb/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/remont-ograzhdeniy/</loc>
+    <loc>https://zemtrak.ru/services/inzhenernye-seti/prokladka-kabelya/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/razrabotka-karyerov/</loc>
+    <loc>https://zemtrak.ru/services/inzhenernye-seti/prokladka-vodoprovoda/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/dobycha-peska-shchebnya/</loc>
+    <loc>https://zemtrak.ru/services/inzhenernye-seti/ustroystvo-drenazha/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/droblenie-sortirovka/</loc>
+    <loc>https://zemtrak.ru/services/karyernye-raboty/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/rekultivaciya-karyerov/</loc>
+    <loc>https://zemtrak.ru/services/karyernye-raboty/dobycha-peska-shchebnya/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/pogruzka-sypuchih/</loc>
+    <loc>https://zemtrak.ru/services/karyernye-raboty/droblenie-sortirovka/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/razgruzka-negabarita/</loc>
+    <loc>https://zemtrak.ru/services/karyernye-raboty/razrabotka-karyerov/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/takelazh-oborudovaniya/</loc>
+    <loc>https://zemtrak.ru/services/karyernye-raboty/rekultivaciya-karyerov/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/snos-zdaniy-sooruzheniy/</loc>
+    <loc>https://zemtrak.ru/services/kommunalnye-raboty/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/demontazh-fundamentov/</loc>
+    <loc>https://zemtrak.ru/services/kommunalnye-raboty/moyka-podmetanie/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/pererabotka-stroitelnogo-loma/</loc>
+    <loc>https://zemtrak.ru/services/kommunalnye-raboty/otkachka-zhidkih-othodov/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/razborka-dorozhnyh-pokrytiy/</loc>
+    <loc>https://zemtrak.ru/services/kommunalnye-raboty/promyvka-kanalizatsii/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/vyvoz-grunta-musora/</loc>
+    <loc>https://zemtrak.ru/services/kommunalnye-raboty/uborka-snega/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/perevozka-sypuchih/</loc>
+    <loc>https://zemtrak.ru/services/kommunalnye-raboty/vyvoz-snega/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/perevozka-negabaritnoy-tehniki/</loc>
+    <loc>https://zemtrak.ru/services/montazh-dorozhnyh-ograzhdeniy/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/perevozka-zhbi-metall/</loc>
+    <loc>https://zemtrak.ru/services/montazh-dorozhnyh-ograzhdeniy/montazh-barernogo-ograzhdeniya/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/podgotovka-territorii/</loc>
+    <loc>https://zemtrak.ru/services/montazh-dorozhnyh-ograzhdeniy/perilnye-ograzhdeniya/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/korchevanie-pney/</loc>
+    <loc>https://zemtrak.ru/services/montazh-dorozhnyh-ograzhdeniy/remont-ograzhdeniy/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/ustroystvo-vremennyh-dorog/</loc>
+    <loc>https://zemtrak.ru/services/montazh-dorozhnyh-ograzhdeniy/shumozashchitnye-ekrany/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/podem-montazh-konstruktsiy/</loc>
+    <loc>https://zemtrak.ru/services/montazh-dorozhnyh-ograzhdeniy/zabivka-stoek-ograzhdeniya/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/ustanovka-balok-ferm/</loc>
+    <loc>https://zemtrak.ru/services/podemno-montazhnye-raboty/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/fasadnye-raboty/</loc>
+    <loc>https://zemtrak.ru/services/podemno-montazhnye-raboty/fasadnye-raboty/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/prokladka-vodoprovoda/</loc>
+    <loc>https://zemtrak.ru/services/podemno-montazhnye-raboty/podem-montazh-konstruktsiy/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/bestransheynaya-prokladka-gnb/</loc>
+    <loc>https://zemtrak.ru/services/podemno-montazhnye-raboty/ustanovka-balok-ferm/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/prokladka-kabelya/</loc>
+    <loc>https://zemtrak.ru/services/pogruzochno-razgruzochnye-raboty/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/ustroystvo-drenazha/</loc>
+    <loc>https://zemtrak.ru/services/pogruzochno-razgruzochnye-raboty/pogruzka-sypuchih/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/zabivka-zhb-svay/</loc>
+    <loc>https://zemtrak.ru/services/pogruzochno-razgruzochnye-raboty/razgruzka-negabarita/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/burenie-skvazhin-svai/</loc>
+    <loc>https://zemtrak.ru/services/pogruzochno-razgruzochnye-raboty/takelazh-oborudovaniya/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/lidernoe-burenie/</loc>
+    <loc>https://zemtrak.ru/services/snos-i-demontazh/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/vibropogruzhenie-shpunta/</loc>
+    <loc>https://zemtrak.ru/services/snos-i-demontazh/demontazh-fundamentov/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/uborka-snega/</loc>
+    <loc>https://zemtrak.ru/services/snos-i-demontazh/pererabotka-stroitelnogo-loma/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/vyvoz-snega/</loc>
+    <loc>https://zemtrak.ru/services/snos-i-demontazh/razborka-dorozhnyh-pokrytiy/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/moyka-podmetanie/</loc>
+    <loc>https://zemtrak.ru/services/snos-i-demontazh/snos-zdaniy-sooruzheniy/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/promyvka-kanalizatsii/</loc>
+    <loc>https://zemtrak.ru/services/svaynye-i-burovye-raboty/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zemtrak.ru/services/otkachka-zhidkih-othodov/</loc>
+    <loc>https://zemtrak.ru/services/svaynye-i-burovye-raboty/burenie-skvazhin-svai/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/services/svaynye-i-burovye-raboty/lidernoe-burenie/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/services/svaynye-i-burovye-raboty/vibropogruzhenie-shpunta/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/services/svaynye-i-burovye-raboty/zabivka-zhb-svay/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/services/vyvoz-i-perevozka/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/services/vyvoz-i-perevozka/perevozka-negabaritnoy-tehniki/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/services/vyvoz-i-perevozka/perevozka-sypuchih/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/services/vyvoz-i-perevozka/perevozka-zhbi-metall/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/services/vyvoz-i-perevozka/vyvoz-grunta-musora/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/services/zemlyanye-raboty/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/services/zemlyanye-raboty/obratnaya-zasypka/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/services/zemlyanye-raboty/razrabotka-kotlovanov/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/services/zemlyanye-raboty/rytyo-transhey/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/services/zemlyanye-raboty/srezka-rastitelnogo-sloya/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/services/zemlyanye-raboty/ustroystvo-nasypey/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/services/zemlyanye-raboty/vertikalnaya-planirovka/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/services/zemlyanye-raboty/vyemka-grunta/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://zemtrak.ru/services/zemlyanye-raboty/vyemka-skalnogo-grunta/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
