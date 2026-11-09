@@ -1,4 +1,5 @@
 const SITE_CONFIG = {
+  leadGatewayUrl: "",
   leadEndpoint: "https://formsubmit.co/ajax/rent@zemtrak.ru",
   email: "rent@zemtrak.ru",
   phone: "+7 (925) 757-78-88",

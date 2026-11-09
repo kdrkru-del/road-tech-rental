@@ -213,6 +213,12 @@
     setStatus(form, "", "");
     setPhoneError(form, "");
 
+    if (form.elements.consent && !form.elements.consent.checked) {
+      setStatus(form, "Необходимо подтвердить согласие на обработку персональных данных.", "error");
+      form.elements.consent.focus();
+      return;
+    }
+
     if (!phoneIsValid(form.elements.phone.value)) {
       setPhoneError(form, "Введите номер телефона — не менее 10 цифр.");
       form.elements.phone.focus();
@@ -729,6 +735,7 @@
   setupMessengerLinks();
   setupMetrika();
   setupForms();
+    initLegalAndConsent();
   setupNavigation();
   setupGoals();
   setupYear();
@@ -738,3 +745,61 @@
   setupCraneCalculator();
   setupQuickContactWidget();
 })();
+
+
+  function initLegalAndConsent() {
+    // 1. Подключение чекбокса согласия и ym-disable-keys во все формы
+    document.querySelectorAll("[data-lead-form]").forEach((form, idx) => {
+      // ym-disable-keys для защиты от перехвата ввода Вебвизором
+      form.querySelectorAll("input, textarea").forEach(inp => {
+        if (!inp.classList.contains("ym-disable-keys")) {
+          inp.classList.add("ym-disable-keys");
+        }
+      });
+
+      const privacyP = form.querySelector(".form-privacy");
+      if (privacyP && !form.querySelector('input[name="consent"]')) {
+        const consentId = "consent-check-" + (idx + 1);
+        const consentWrap = document.createElement("div");
+        consentWrap.className = "form-consent-wrap";
+        consentWrap.style.cssText = "display:flex;align-items:flex-start;gap:8px;margin:10px 0 14px;text-align:left;";
+        consentWrap.innerHTML = `
+          <input type="checkbox" name="consent" id="${consentId}" required style="margin-top:3px;cursor:pointer;flex-shrink:0;">
+          <label for="${consentId}" style="font-size:11.5px;line-height:1.4;color:#6b7280;cursor:pointer;user-select:none;">
+            Даю <a href="/consent/" target="_blank" style="text-decoration:underline;color:#374151;">согласие на обработку данных</a> ООО «ЮНАТ». С <a href="/privacy/" target="_blank" style="text-decoration:underline;color:#374151;">Политикой конфиденциальности</a> ознакомлен.
+          </label>
+        `;
+        privacyP.parentNode.replaceChild(consentWrap, privacyP);
+      }
+    });
+
+    // 2. Добавление ссылок в футер сайта
+    document.querySelectorAll(".site-footer__bottom, .footer-extra-links").forEach(el => {
+      if (!el.querySelector('a[href="/privacy/"]')) {
+        const linkBox = document.createElement("div");
+        linkBox.style.cssText = "margin-top:8px;font-size:12px;color:#9ca3af;display:flex;gap:12px;flex-wrap:wrap;";
+        linkBox.innerHTML = `
+          <a href="/privacy/" style="color:#9ca3af;text-decoration:underline;">Политика конфиденциальности</a>
+          <span>&bull;</span>
+          <a href="/consent/" style="color:#9ca3af;text-decoration:underline;">Согласие на обработку данных</a>
+        `;
+        el.appendChild(linkBox);
+      }
+    });
+
+    // 3. Cookie баннер
+    if (typeof localStorage !== "undefined" && !localStorage.getItem("cookie_consent_accepted")) {
+      const banner = document.createElement("div");
+      banner.id = "cookie-banner";
+      banner.style.cssText = "position:fixed;bottom:20px;left:20px;right:20px;max-width:540px;background:#1e293b;color:#f8fafc;padding:16px 20px;border-radius:10px;box-shadow:0 10px 25px rgba(0,0,0,0.25);z-index:9999;display:flex;align-items:center;justify-content:space-between;gap:16px;font-size:12.5px;line-height:1.4;";
+      banner.innerHTML = `
+        <div>Мы используем cookie и сервисы веб-аналитики для корректной работы сайта. Подробнее в нашей <a href="/privacy/" target="_blank" style="color:#38bdf8;text-decoration:underline;">Политике конфиденциальности</a>.</div>
+        <button type="button" style="background:#0284c7;color:#fff;border:none;padding:8px 16px;border-radius:6px;font-weight:600;cursor:pointer;white-space:nowrap;font-size:12px;">Принять</button>
+      `;
+      banner.querySelector("button").addEventListener("click", () => {
+        localStorage.setItem("cookie_consent_accepted", "true");
+        banner.remove();
+      });
+      document.body.appendChild(banner);
+    }
+  }
